@@ -66,9 +66,16 @@ li {
     list-style-type: none;
 }
 
-img {
-    margin: auto;
-    width: 100%
+figure {
+    margin: 0 auto;
+    text-align: center;
+}
+
+figure img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    margin: 0 auto;
 }
 
 article {
@@ -121,5 +128,7 @@ article p {
         border-left: 1px solid #d0d0d0;
         padding: 0 10px;
     }
+
+    
 
 }
